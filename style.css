@@ -1,0 +1,40 @@
+* {
+    background-color: aquamarine;
+}
+
+.container {
+    background-color: cadetblue;
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    /* display:inline-block; */
+}
+
+@media only screen and (max-width: 800px){
+
+
+    .container{
+        display: flex;
+    }
+
+    .caja {
+        border: 5px solid white;
+    }
+
+    .galeria{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 200px;
+    }
+
+}
+
